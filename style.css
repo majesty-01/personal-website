@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    background-image: url("images/header-bg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 120px 0px;
+}
+.header-layout{
+    width: 1320px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-image: linear-gradient(45deg, rgb(255, 0, 128),rgb(185, 21, 136));
+    text-decoration: none;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#highlight{
+    font-weight: bold;
+    color: rgb(172, 23, 102);
+    font-size: 60px;
+    margin: initial;
+}
+h2{
+    font-size: 50px;
+    margin: initial;
+    font-weight: 100;
+}
+p{
+    padding-right: 100px;
+}
+.head-text{
+    width: 745px;
+
+}
+.head-pic{
+    width: 920px;
+    margin-left: -150px;
+}
+.head-pic img{
+    width: 100%;
+}
+
+
+
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 140px 0px;
+}
+.biography-layout{
+    width: 1520px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.biography-pic{
+    width: 702px;
+    margin-right: 150px;
+}
+.biography-pic img{
+    width: 100%;
+}
+.biography-text{
+    width: 666px;
+    text-align: justify;
+}
+.no-pad{
+    padding-right: 6px;
+    font-size: 17px;
+}
+
+
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 150px 0px;
+}
+.latest-work-layout{
+    width: 1580px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.work1{
+    width: 500px;
+    margin-right: 40px;
+}
+.work1 img{
+    width: 100%;
+}
+.work2{
+    width: 500px;
+    margin-right: 40px;
+}
+.work2 img{
+    width: 100%;
+}
+.work3{
+    width: 500px;
+}
+.work3 img{
+    width: 100%;
+}
+.non-highlight{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.footer{
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    padding: 100px 0px;
+}
+.footer-layout{
+    width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+h3{
+    text-align: center;
+    height: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.ceo{
+    text-align: center;
+    font-weight: 100;
+}
+.footer-ceo{
+    padding: 50px;
+}
+.footer-paragraph{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#comment{
+    padding: 0%;
+    text-align: center;
+    font-size: 20px;
+}
+.text-box{
+    background-image: linear-gradient(45deg, rgb(221, 62, 142),rgb(235, 8, 166));
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 800px;
+    margin: 90px auto;
+}
+.message{
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+}
+.mail{
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+}
+.copy-right{
+    text-align: center;
+    font-size: 17px;
+    padding: 30px 0px;
+}
+
+
+
